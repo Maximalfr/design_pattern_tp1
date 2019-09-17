@@ -1,0 +1,4 @@
+Factory
+6. Oui, il est très facile d'ajouter un Program4 sans modifier Client
+
+
