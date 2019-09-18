@@ -3,7 +3,7 @@ package com.abstract_factory.four;
 public class OSFactory {
 
     private static boolean isWindows() {
-        return false; // Mock
+        return System.getProperty("os.name").toLowerCase().contains("win");
     }
 
     public static Factory getFactory() {

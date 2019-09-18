@@ -1,6 +1,6 @@
 package com.factory.five;
 
-import com.factory.six.ProgramInterface;
+import com.factory.five.ProgramInterface;
 
 import java.util.logging.Logger;
 

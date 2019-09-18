@@ -1,6 +1,6 @@
 package com.factory.one_four;
 
-import com.factory.six.ProgramInterface;
+import com.factory.one_four.ProgramInterface;
 
 import java.util.logging.Logger;
 

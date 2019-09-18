@@ -3,7 +3,7 @@ package com.abstract_factory.two;
 public class Factory {
 
     private boolean isWindows() {
-        return false;
+        return System.getProperty("os.name").toLowerCase().contains("win");
     }
 
     public FileNameParser getFileNameParser() {

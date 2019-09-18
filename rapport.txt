@@ -1,4 +1,11 @@
 Factory
 6. Oui, il est très facile d'ajouter un Program4 sans modifier Client
 
+Singleton
+2. La methode start() va lancer l'objet avion en tant que thread et notamment, va appeler la methode run().
+Chaque avion aura un objet aeroport distinct. Pour empêcher la création de plusieurs aéroports, il faut utiliser un singleton. 
+Le constructeur de l'objet aeroport sera privé et sera appelé par la méthode getInstance(). Si celle ci n'existe pas, on crée l'objet, sinon on retourne l'existante.
 
+3. Le singleton aeroport n'est pas thread safe, si plusieurs threads demandent une instance en même temps, plusieurs instances sont créées.
+
+4. Afin d'empêcher plusieurs threads d'accéder à la même ressource, on peut utiliser le mot clé synchronized pour la méthode ou utiliser un lock.
